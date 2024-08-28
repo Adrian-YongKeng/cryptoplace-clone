@@ -37,7 +37,7 @@ const Navbar = () => {
       case "sgd": {
         setCurrency({ name: "sgd", symbol: "S$" });
         break;
-      }
+      } //
       default: {
         setCurrency({ name: "usd", symbol: "$" });
         break;
